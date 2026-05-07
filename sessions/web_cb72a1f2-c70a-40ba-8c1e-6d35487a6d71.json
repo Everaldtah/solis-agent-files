@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "Hey"
+  },
+  {
+    "role": "assistant",
+    "content": "Hey! I'm Solis, your TermuxClawAgent. I can run shell commands, manage files, and persist notes to your GitHub vault.\n\nHow can I help you today?"
+  }
+]
