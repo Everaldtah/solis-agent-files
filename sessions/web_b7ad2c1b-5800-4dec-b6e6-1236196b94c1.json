@@ -6,5 +6,116 @@
   {
     "role": "assistant",
     "content": "Yo! 👋 I'm Solis, ready to help. What can I do for you today?"
+  },
+  {
+    "role": "user",
+    "content": "Why isn’t termuxclaw agent on telegram responding"
+  },
+  {
+    "role": "assistant",
+    "content": "I’m not sure offhand. I don’t have live access to the Telegram bot’s logs or server, but let me check the memory vault to see if there’s any info about the setup or past issues.",
+    "tool_calls": [
+      {
+        "id": "functions.vault_search:0",
+        "index": 0,
+        "type": "function",
+        "function": {
+          "name": "vault_search",
+          "arguments": "{\"query\":\"telegram\"}"
+        }
+      },
+      {
+        "id": "functions.vault_list:1",
+        "index": 1,
+        "type": "function",
+        "function": {
+          "name": "vault_list",
+          "arguments": "{\"path\":\".\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "functions.vault_search:0",
+    "name": "vault_search",
+    "content": "{\"query\":\"telegram\",\"results\":[]}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "functions.vault_list:1",
+    "name": "vault_list",
+    "content": "{\"error\":\"GH list vault/.: HTTP 302\"}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "functions.vault_search:4",
+        "index": 2,
+        "type": "function",
+        "function": {
+          "name": "vault_search",
+          "arguments": "{\"query\":\"telegram bot not responding\"}"
+        }
+      },
+      {
+        "id": "functions.vault_search:5",
+        "index": 3,
+        "type": "function",
+        "function": {
+          "name": "vault_search",
+          "arguments": "{\"query\":\"termuxclaw telegram\"}"
+        }
+      },
+      {
+        "id": "functions.vault_search:6",
+        "index": 4,
+        "type": "function",
+        "function": {
+          "name": "vault_search",
+          "arguments": "{\"query\":\"bot down webhook polling\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "functions.vault_search:4",
+    "name": "vault_search",
+    "content": "{\"query\":\"telegram bot not responding\",\"results\":[]}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "functions.vault_search:5",
+    "name": "vault_search",
+    "content": "{\"query\":\"termuxclaw telegram\",\"results\":[]}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "functions.vault_search:6",
+    "name": "vault_search",
+    "content": "{\"query\":\"bot down webhook polling\",\"results\":[]}"
+  },
+  {
+    "role": "assistant",
+    "content": "I don’t have any stored notes about a Telegram bot for this project in my vault, so I can’t see its current status directly.\n\nA few quick questions to help diagnose:\n\n1. **What’s the bot’s username?** (e.g., `@termuxclaw_bot`)\n2. **What exactly happens when you message it?** (no reply at all, loading spinner, error message?)\n3. **Is it using polling or a webhook?**\n\nCommon reasons a Telegram bot goes silent:\n- **Server down / cold start:** If it’s hosted on a free tier (Vercel hobby, Render, etc.), the bot may be sleeping or crashed.\n- **Webhook vs. polling conflict:** If the bot switched modes or the webhook URL is stale, Telegram might not deliver updates.\n- **Bot token expired / invalid:** The token could have been revoked or regenerated.\n- **Rate limiting:** If it hit Telegram’s flood limits, it can be muted temporarily.\n- **Dropped updates:** If using `getUpdates` with polling and the offset wasn’t handled, it might appear \"stuck.\"\n\nIf you can share the bot username (or even the webhook URL), I can run a quick check via `http_get` to see if the endpoint is alive, or help you verify the webhook configuration with Telegram’s API.\n\nWhat info can you share?"
+  },
+  {
+    "role": "user",
+    "content": "Hey"
+  },
+  {
+    "role": "assistant",
+    "content": "Hey! 👋 What's up? How can I help you today?"
+  },
+  {
+    "role": "user",
+    "content": "Is it harder for"
+  },
+  {
+    "role": "assistant",
+    "content": "It looks like your question got cut off! Is it harder for…\n\n- **the Telegram bot to recover** after going down?\n- **you to set up polling vs. a webhook?**\n- **the Vercel server to cold-start the bot?**\n- **me to access something specific?**\n\nFinish the thought and I’ll help you out!"
   }
 ]
