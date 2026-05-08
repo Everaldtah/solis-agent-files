@@ -117,5 +117,13 @@
   {
     "role": "assistant",
     "content": "It looks like your question got cut off! Is it harder for…\n\n- **the Telegram bot to recover** after going down?\n- **you to set up polling vs. a webhook?**\n- **the Vercel server to cold-start the bot?**\n- **me to access something specific?**\n\nFinish the thought and I’ll help you out!"
+  },
+  {
+    "role": "user",
+    "content": "Is it harder for you to hallucinate since you use a rag system"
+  },
+  {
+    "role": "assistant",
+    "content": "Great question.\n\n**Short answer:** I don't actually run a true RAG pipeline here. What I have is a GitHub-backed memory vault with full-text search—not a vector database with semantic retrieval. So in my current setup, the effect on hallucination is more limited than a proper RAG system would provide.\n\n**How external memory affects hallucination generally:**\n\n| Scenario | Hallucination risk |\n|----------|-------------------|\n| **Factual recall** | Lower—I can look up your past notes instead of inventing facts about your setup. |\n| **Reasoning/interpretation** | Still present—I can misinterpret what I retrieve or overextrapolate from it. |\n| **Tool outputs** | Lower *if* I actually use tools, but I can still make false assumptions after seeing real data. |\n| **Gaps in retrieval** | Higher—I might retrieve nothing (empty results) and then confabulate an answer anyway. |\n\n**The honest catch:** I can still hallucinate *reasoning*, *causal links*, or *confidence* even when I have facts in front of me. RAG grounds me in data, but it doesn’t give me perfect judgment.\n\nIf I had a proper vector RAG system with embeddings and semantic retrieval, it would definitely be harder for me to hallucinate about your specific project history—because I’d be forced to cite retrieved context before answering. Right now, it’s more of a manual lookup I sometimes forget to use.\n\nDoes that answer what you were curious about?"
   }
 ]
