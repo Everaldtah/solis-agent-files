@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "Hey"
+  },
+  {
+    "role": "assistant",
+    "content": "Hey there! I'm Solis, your TermuxClawAgent. How can I help you today?"
+  }
+]
