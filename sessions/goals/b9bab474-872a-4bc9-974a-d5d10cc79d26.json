@@ -1,0 +1,14 @@
+{
+  "id": "b9bab474-872a-4bc9-974a-d5d10cc79d26",
+  "objective": "test goal with fake token [REDACTED]",
+  "status": "paused",
+  "iterations": 0,
+  "maxIterations": 30,
+  "history": [],
+  "log": [],
+  "lastReply": "",
+  "pauseReason": "",
+  "completionSummary": "",
+  "created": 1778636957551,
+  "updated": 1778636957551
+}
