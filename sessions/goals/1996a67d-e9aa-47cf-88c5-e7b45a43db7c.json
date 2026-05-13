@@ -1,7 +1,7 @@
 {
   "id": "1996a67d-e9aa-47cf-88c5-e7b45a43db7c",
   "objective": "Build a simple website of your choice and send link so I can view if",
-  "status": "paused",
+  "status": "deleted",
   "iterations": 0,
   "maxIterations": 30,
   "history": [],
@@ -10,5 +10,5 @@
   "pauseReason": "",
   "completionSummary": "",
   "created": 1778638035337,
-  "updated": 1778638035337
+  "updated": 1778638159937
 }
