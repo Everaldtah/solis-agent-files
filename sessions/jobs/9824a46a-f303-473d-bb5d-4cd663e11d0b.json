@@ -1,0 +1,19 @@
+{
+  "id": "9824a46a-f303-473d-bb5d-4cd663e11d0b",
+  "mode": "computer",
+  "status": "running",
+  "message": "Use shell_exec to compute 2+2. Reply with just the number.",
+  "sessionId": "v2-cm",
+  "provider": "Computer Mode",
+  "model": "meta/llama-3.3-70b-instruct",
+  "created": 1778722501890,
+  "updated": 1778722501890,
+  "phase": "initializing",
+  "plan": [],
+  "specialists": {},
+  "toolActions": [],
+  "reply": null,
+  "error": null,
+  "durationMs": null,
+  "rounds": []
+}
