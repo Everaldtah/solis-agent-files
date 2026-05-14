@@ -7,10 +7,48 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778745461680,
-  "updated": 1778745461690,
+  "updated": 1778745463448,
   "phase": "planning",
-  "plan": [],
-  "specialists": {},
+  "plan": [
+    {
+      "id": 1,
+      "task": "Analyze user greeting to determine intent",
+      "model": "Llama-3.3 (DS slot)"
+    },
+    {
+      "id": 2,
+      "task": "Research possible responses to user greeting",
+      "model": "GLM-5.1"
+    },
+    {
+      "id": 3,
+      "task": "Evaluate tone and sentiment of user greeting",
+      "model": "Qwen 3.5-397B"
+    },
+    {
+      "id": 4,
+      "task": "Generate response options based on greeting analysis",
+      "model": "Llama-3.1 (MM slot)"
+    }
+  ],
+  "specialists": {
+    "1": {
+      "model": "Llama-3.3 (DS slot)",
+      "status": "running"
+    },
+    "2": {
+      "model": "GLM-5.1",
+      "status": "running"
+    },
+    "3": {
+      "model": "Qwen 3.5-397B",
+      "status": "running"
+    },
+    "4": {
+      "model": "Llama-3.1 (MM slot)",
+      "status": "running"
+    }
+  },
   "toolActions": [],
   "reply": null,
   "error": null,
