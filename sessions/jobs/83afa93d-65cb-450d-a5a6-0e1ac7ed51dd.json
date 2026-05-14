@@ -7,10 +7,48 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778723710483,
-  "updated": 1778723710485,
+  "updated": 1778723729523,
   "phase": "planning",
-  "plan": [],
-  "specialists": {},
+  "plan": [
+    {
+      "id": 1,
+      "task": "Fetch the list of dog breeds from the Dog CEO API using ubuntu_exec or shell_exec and store the response for further processing",
+      "model": "Llama-3.3 (DS slot)"
+    },
+    {
+      "id": 2,
+      "task": "Select 6 apartment-friendly dog breeds from the fetched list and for each breed, fetch a random image URL from the Dog CEO API",
+      "model": "GLM-5.1"
+    },
+    {
+      "id": 3,
+      "task": "Create a self-contained HTML file with inline CSS, containing a hero section, a 6-card grid with breed information and images, and a fake donate form, then save it to /tmp/dogs.html",
+      "model": "Qwen 3.5-397B"
+    },
+    {
+      "id": 4,
+      "task": "Verify the generated HTML file by running wc -c and grep -c commands, then save the selected breed list to persistent memory using memory_save and return the full HTML content",
+      "model": "Llama-3.1 (MM slot)"
+    }
+  ],
+  "specialists": {
+    "1": {
+      "model": "Llama-3.3 (DS slot)",
+      "status": "running"
+    },
+    "2": {
+      "model": "GLM-5.1",
+      "status": "running"
+    },
+    "3": {
+      "model": "Qwen 3.5-397B",
+      "status": "running"
+    },
+    "4": {
+      "model": "Llama-3.1 (MM slot)",
+      "status": "running"
+    }
+  },
   "toolActions": [],
   "reply": null,
   "error": null,
