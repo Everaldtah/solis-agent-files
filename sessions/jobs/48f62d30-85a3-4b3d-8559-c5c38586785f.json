@@ -7,11 +7,26 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778725130486,
-  "updated": 1778725130487,
+  "updated": 1778725130820,
   "phase": "planning",
   "plan": [],
   "specialists": {},
-  "toolActions": [],
+  "toolActions": [
+    {
+      "kind": "linux",
+      "action": "shell_exec",
+      "args": "echo 'Using shell_exec for real work.'",
+      "result": "",
+      "at": 1778725131632
+    },
+    {
+      "kind": "linux",
+      "action": "shell_exec",
+      "args": "echo 'Using shell_exec for real work.'",
+      "result": "Using shell_exec for real work.\n",
+      "at": 1778725131636
+    }
+  ],
   "reply": null,
   "error": null,
   "durationMs": null,
