@@ -7,10 +7,28 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778722501890,
-  "updated": 1778722501900,
+  "updated": 1778722525141,
   "phase": "planning",
-  "plan": [],
-  "specialists": {},
+  "plan": [
+    {
+      "model": "Llama-3.3 (DS slot)"
+    },
+    {
+      "model": "GLM-5.1"
+    },
+    {
+      "model": "Qwen 3.5-397B"
+    },
+    {
+      "model": "Llama-3.1 (MM slot)"
+    }
+  ],
+  "specialists": {
+    "undefined": {
+      "model": "Llama-3.1 (MM slot)",
+      "status": "running"
+    }
+  },
   "toolActions": [],
   "reply": null,
   "error": null,
