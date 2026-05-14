@@ -7,7 +7,7 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778723710483,
-  "updated": 1778723851528,
+  "updated": 1778723853303,
   "phase": "executing",
   "plan": [
     {
@@ -53,7 +53,22 @@
       "result": "Error: LLM timeout (60000ms): meta/llama-3.1-70b-instruct"
     }
   },
-  "toolActions": [],
+  "toolActions": [
+    {
+      "kind": "linux",
+      "action": "shell_exec",
+      "args": "curl -s https://dog.ceo/api/breeds/list/all",
+      "result": "",
+      "at": 1778723853303
+    },
+    {
+      "kind": "linux",
+      "action": "shell_exec",
+      "args": "curl -s https://dog.ceo/api/breeds/list/all",
+      "result": "{\"message\":{\"affenpinscher\":[],\"african\":[\"wild\"],\"airedale\":[],\"akita\":[],\"appenzeller\":[],\"australian\":[\"kelpie\",\"shepherd\"],\"bakharwal\":[\"indian\"],\"basenji\":[],\"beagle\":[],\"bluetick\":[],\"borzoi\":[],\"bouvier\":[],\"boxer\":[],\"brabancon\":[],\"briard\":[],\"buhund\":[\"norwegian\"],\"bulldog\":[\"boston\",\"english\",\"french\"],\"bullterrier\":[\"staffordshire\"],\"cattledog\":[\"australian\"],\"cavapoo\":[],\"chihuahua\":[],\"chippiparai\":[\"indian\"],\"chow\":[],\"clumber\":[],\"cockapoo\":[],\"collie\":[\"border\"],\"coonhound\":[],\"corgi\":[\"cardigan\"],\"cotondetulear\":[],\"dachshund\":[],\"dalmatian\":[],\"dane\":[\"great\"],\"danish\":[\"swe",
+      "at": 1778723853441
+    }
+  ],
   "reply": null,
   "error": null,
   "durationMs": null,
