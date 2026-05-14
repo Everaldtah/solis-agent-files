@@ -1,0 +1,19 @@
+{
+  "id": "abd98885-fe72-4dc8-a349-17bcf213fe73",
+  "mode": "computer",
+  "status": "running",
+  "message": "create a simple website about dogs sales advert and send me link so that i can see html front end , create front end only",
+  "sessionId": "7960f29e-9de0-4160-9ebb-7792e1a0d2a8",
+  "provider": "Computer Mode",
+  "model": "meta/llama-3.3-70b-instruct",
+  "created": 1778723279844,
+  "updated": 1778723279844,
+  "phase": "initializing",
+  "plan": [],
+  "specialists": {},
+  "toolActions": [],
+  "reply": null,
+  "error": null,
+  "durationMs": null,
+  "rounds": []
+}
