@@ -8,7 +8,7 @@
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778722501890,
   "updated": 1778722575161,
-  "phase": "running",
+  "phase": "executing",
   "plan": [
     {
       "model": "Llama-3.3 (DS slot)"
