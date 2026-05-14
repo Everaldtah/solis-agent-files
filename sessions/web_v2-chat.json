@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "Reply with exactly: PONG"
+  },
+  {
+    "role": "assistant",
+    "content": "PONG"
+  }
+]
