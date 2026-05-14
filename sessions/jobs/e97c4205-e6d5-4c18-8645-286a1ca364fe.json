@@ -7,10 +7,21 @@
   "provider": "Nvidia",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778721942050,
-  "updated": 1778721942856,
+  "updated": 1778721957164,
   "rounds": [
     {
       "round": 1,
+      "thinking": "",
+      "toolCalls": [
+        {
+          "tool": "shell_exec",
+          "args": "echo PONG",
+          "result": "PONG\n"
+        }
+      ]
+    },
+    {
+      "round": 2,
       "thinking": "",
       "toolCalls": []
     }
