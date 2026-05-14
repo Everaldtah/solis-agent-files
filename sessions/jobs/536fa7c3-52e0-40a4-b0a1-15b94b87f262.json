@@ -7,7 +7,7 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778725020381,
-  "updated": 1778725051190,
+  "updated": 1778725052009,
   "phase": "executing",
   "plan": [],
   "specialists": {},
@@ -53,6 +53,20 @@
       "args": "apt-get update && apt-get install python3 -y && python3 -m http.server 8000",
       "result": "ubuntu_exec not configured. Set UBUNTU_SANDBOX_PROVIDER=e2b + E2B_API_KEY in Vercel env (recommended — pay per second), OR set UBUNTU_SANDBOX_PROVIDER=remote + UBUNTU_BRIDGE_URL pointing at any HTTP endpoint that runs commands. Fall back to shell_exec if you just need basic Linux tooling.",
       "at": 1778725051190
+    },
+    {
+      "kind": "linux",
+      "action": "shell_exec",
+      "args": "python3 -m http.server 8000",
+      "result": "",
+      "at": 1778725052009
+    },
+    {
+      "kind": "linux",
+      "action": "shell_exec",
+      "args": "python3 -m http.server 8000",
+      "result": "",
+      "at": 1778725052012
     }
   ],
   "reply": null,
