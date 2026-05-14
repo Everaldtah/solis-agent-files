@@ -1,0 +1,19 @@
+{
+  "id": "536fa7c3-52e0-40a4-b0a1-15b94b87f262",
+  "mode": "computer",
+  "status": "running",
+  "message": "Build something creative of your choice and send me link let me view it",
+  "sessionId": "7362f115-521c-4b5c-83a3-d9e9fdc16b7a",
+  "provider": "Computer Mode",
+  "model": "meta/llama-3.3-70b-instruct",
+  "created": 1778725020381,
+  "updated": 1778725020381,
+  "phase": "initializing",
+  "plan": [],
+  "specialists": {},
+  "toolActions": [],
+  "reply": null,
+  "error": null,
+  "durationMs": null,
+  "rounds": []
+}
