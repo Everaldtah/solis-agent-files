@@ -1,0 +1,15 @@
+{
+  "id": "5cdc474d-b493-43bf-b77c-7cb48c95381a",
+  "mode": "chat",
+  "status": "running",
+  "message": "Hey",
+  "sessionId": "7362f115-521c-4b5c-83a3-d9e9fdc16b7a",
+  "provider": "Nvidia",
+  "model": "meta/llama-3.3-70b-instruct",
+  "created": 1778724967290,
+  "updated": 1778724967290,
+  "rounds": [],
+  "reply": null,
+  "error": null,
+  "durationMs": null
+}
