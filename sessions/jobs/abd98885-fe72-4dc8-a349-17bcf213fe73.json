@@ -7,7 +7,7 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778723279844,
-  "updated": 1778723286159,
+  "updated": 1778723408159,
   "phase": "running",
   "plan": [
     {
@@ -34,7 +34,8 @@
   "specialists": {
     "1": {
       "model": "Llama-3.3 (DS slot)",
-      "status": "running"
+      "status": "error",
+      "result": "Error: LLM timeout (60000ms): meta/llama-3.3-70b-instruct"
     },
     "2": {
       "model": "GLM-5.1",
