@@ -7,8 +7,8 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778723279844,
-  "updated": 1778723408163,
-  "phase": "running",
+  "updated": 1778723408164,
+  "phase": "executing",
   "plan": [
     {
       "id": 1,
