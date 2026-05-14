@@ -7,7 +7,7 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778723710483,
-  "updated": 1778723897370,
+  "updated": 1778723898430,
   "phase": "executing",
   "plan": [
     {
@@ -137,6 +137,20 @@
       "args": "curl -s https://dog.ceo/api/breed/chihuahua/images/random",
       "result": "{\"message\":\"https:\\/\\/images.dog.ceo\\/breeds\\/chihuahua\\/n02085620_949.jpg\",\"status\":\"success\"}",
       "at": 1778723897370
+    },
+    {
+      "kind": "linux",
+      "action": "shell_exec",
+      "args": "curl -s https://dog.ceo/api/breed/pekingese/images/random",
+      "result": "",
+      "at": 1778723898430
+    },
+    {
+      "kind": "linux",
+      "action": "shell_exec",
+      "args": "curl -s https://dog.ceo/api/breed/pekingese/images/random",
+      "result": "{\"status\":\"error\",\"message\":\"Breed not found (main breed does not exist)\",\"code\":404}",
+      "at": 1778723898555
     }
   ],
   "reply": null,
