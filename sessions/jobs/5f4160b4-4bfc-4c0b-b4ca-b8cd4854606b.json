@@ -1,0 +1,15 @@
+{
+  "id": "5f4160b4-4bfc-4c0b-b4ca-b8cd4854606b",
+  "mode": "chat",
+  "status": "running",
+  "message": "Reply with exactly: PONG",
+  "sessionId": "diag-chat-2",
+  "provider": "Nvidia",
+  "model": "moonshotai/kimi-k2.6",
+  "created": 1778721061581,
+  "updated": 1778721061581,
+  "rounds": [],
+  "reply": null,
+  "error": null,
+  "durationMs": null
+}
