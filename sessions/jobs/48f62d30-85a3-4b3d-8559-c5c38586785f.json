@@ -1,0 +1,19 @@
+{
+  "id": "48f62d30-85a3-4b3d-8559-c5c38586785f",
+  "mode": "computer",
+  "status": "running",
+  "message": "Hey",
+  "sessionId": "7362f115-521c-4b5c-83a3-d9e9fdc16b7a",
+  "provider": "Computer Mode",
+  "model": "meta/llama-3.3-70b-instruct",
+  "created": 1778725130486,
+  "updated": 1778725130486,
+  "phase": "initializing",
+  "plan": [],
+  "specialists": {},
+  "toolActions": [],
+  "reply": null,
+  "error": null,
+  "durationMs": null,
+  "rounds": []
+}
