@@ -1,0 +1,19 @@
+{
+  "id": "9a41fff0-c5b3-47de-96a6-5696c84a0e4e",
+  "mode": "computer",
+  "status": "running",
+  "message": "Use shell_exec to print the result of: echo $((2+2)). Reply with just the number.",
+  "sessionId": "v-cm-1",
+  "provider": "Computer Mode",
+  "model": "meta/llama-3.3-70b-instruct",
+  "created": 1778721959908,
+  "updated": 1778721959908,
+  "phase": "initializing",
+  "plan": [],
+  "specialists": {},
+  "toolActions": [],
+  "reply": null,
+  "error": null,
+  "durationMs": null,
+  "rounds": []
+}
