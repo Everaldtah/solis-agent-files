@@ -1,13 +1,13 @@
 {
   "id": "a892e8a3-fc43-42ca-8607-0f0a5d8066b2",
   "mode": "chat",
-  "status": "running",
+  "status": "done",
   "message": "Reply with exactly: PONG",
   "sessionId": "v2-chat",
   "provider": "Nvidia",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778722486419,
-  "updated": 1778722487340,
+  "updated": 1778722499794,
   "rounds": [
     {
       "round": 1,
@@ -15,7 +15,7 @@
       "toolCalls": []
     }
   ],
-  "reply": null,
+  "reply": "PONG",
   "error": null,
-  "durationMs": null
+  "durationMs": 13375
 }
