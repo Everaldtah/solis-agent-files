@@ -7,7 +7,7 @@
   "provider": "Computer Mode",
   "model": "moonshotai/kimi-k2.6",
   "created": 1778721150494,
-  "updated": 1778721168095,
+  "updated": 1778721217729,
   "phase": "running",
   "plan": [
     {
@@ -38,7 +38,8 @@
     },
     "2": {
       "model": "GLM-5.1",
-      "status": "running"
+      "status": "done",
+      "result": "Using `shell_exec` in PHP and web applications introduces severe security risks, primarily **Command Injection**. This vulnerability occurs when an application passes unsanitized user input directly to a shell command, allowing attackers to execute arbitrary operating system commands on the host server.\n\n### Core Security Risks:\n1. **Arbitrary Command Execution:** Attackers can inject malicious commands (e.g., reverse shells, malware downloads) that the server will execute with the privileges of the web server user (e.g., `www-data`).\n2. **System Compromise:** If the web server user has elevated privileges or sudo access, an attacker can gain full root control, steal sensitive data, install persistent backdoors, or pivot to other systems in the network.\n3. **Data Exfiltration and Destructi"
     },
     "3": {
       "model": "Qwen 3.5-397B",
