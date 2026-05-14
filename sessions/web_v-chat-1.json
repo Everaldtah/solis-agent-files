@@ -1,0 +1,30 @@
+[
+  {
+    "role": "user",
+    "content": "Reply with exactly: PONG"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "chatcmpl-tool-a635a5825e248962",
+        "type": "function",
+        "function": {
+          "name": "shell_exec",
+          "arguments": "{\"command\": \"echo PONG\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-a635a5825e248962",
+    "name": "shell_exec",
+    "content": "{\"stdout\":\"PONG\\n\",\"stderr\":\"\",\"exit_code\":0}"
+  },
+  {
+    "role": "assistant",
+    "content": "The function call returns the string 'PONG' as output, indicating that the echo command was executed successfully."
+  }
+]
