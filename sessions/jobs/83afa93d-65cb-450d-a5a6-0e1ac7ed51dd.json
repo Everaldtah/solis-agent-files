@@ -8,7 +8,7 @@
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778723710483,
   "updated": 1778723851528,
-  "phase": "running",
+  "phase": "executing",
   "plan": [
     {
       "id": 1,
