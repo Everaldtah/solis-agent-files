@@ -7,10 +7,48 @@
   "provider": "Computer Mode",
   "model": "moonshotai/kimi-k2.6",
   "created": 1778721150494,
-  "updated": 1778721150502,
+  "updated": 1778721158095,
   "phase": "planning",
-  "plan": [],
-  "specialists": {},
+  "plan": [
+    {
+      "id": 1,
+      "task": "Explain why using shell_exec for 2+2 is inappropriate and what the actual result is (4) via basic arithmetic.",
+      "model": "DeepSeek V4 Pro"
+    },
+    {
+      "id": 2,
+      "task": "Describe the security risks of using shell_exec in PHP/web applications with a concrete example.",
+      "model": "GLM-5.1"
+    },
+    {
+      "id": 3,
+      "task": "Provide safe alternative methods in PHP to perform arithmetic without shell_exec.",
+      "model": "Qwen 3.5-397B"
+    },
+    {
+      "id": 4,
+      "task": "Show a minimal code snippet demonstrating correct PHP arithmetic vs. an unsafe shell_exec pattern.",
+      "model": "MiniMax M2.7"
+    }
+  ],
+  "specialists": {
+    "1": {
+      "model": "DeepSeek V4 Pro",
+      "status": "running"
+    },
+    "2": {
+      "model": "GLM-5.1",
+      "status": "running"
+    },
+    "3": {
+      "model": "Qwen 3.5-397B",
+      "status": "running"
+    },
+    "4": {
+      "model": "MiniMax M2.7",
+      "status": "running"
+    }
+  },
   "toolActions": [],
   "reply": null,
   "error": null,
