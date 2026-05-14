@@ -1,0 +1,15 @@
+{
+  "id": "e97c4205-e6d5-4c18-8645-286a1ca364fe",
+  "mode": "chat",
+  "status": "running",
+  "message": "Reply with exactly: PONG",
+  "sessionId": "v-chat-1",
+  "provider": "Nvidia",
+  "model": "meta/llama-3.3-70b-instruct",
+  "created": 1778721942050,
+  "updated": 1778721942050,
+  "rounds": [],
+  "reply": null,
+  "error": null,
+  "durationMs": null
+}
