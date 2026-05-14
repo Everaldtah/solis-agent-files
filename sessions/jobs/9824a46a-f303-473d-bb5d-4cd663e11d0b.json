@@ -7,7 +7,7 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778722501890,
-  "updated": 1778722577372,
+  "updated": 1778722577380,
   "phase": "executing",
   "plan": [
     {
@@ -37,6 +37,13 @@
       "args": "echo $((2+2))",
       "result": "",
       "at": 1778722577372
+    },
+    {
+      "kind": "linux",
+      "action": "shell_exec",
+      "args": "echo $((2+2))",
+      "result": "4\n",
+      "at": 1778722577380
     }
   ],
   "reply": null,
