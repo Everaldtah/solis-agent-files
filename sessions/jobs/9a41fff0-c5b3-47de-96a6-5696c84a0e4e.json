@@ -7,10 +7,21 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778721959908,
-  "updated": 1778721959917,
+  "updated": 1778721965851,
   "phase": "planning",
-  "plan": [],
-  "specialists": {},
+  "plan": [
+    {
+      "id": 1,
+      "task": "Use shell_exec to print the result of: echo $((2+2)). Reply with just the number.",
+      "model": "DeepSeek V4 Pro"
+    }
+  ],
+  "specialists": {
+    "1": {
+      "model": "DeepSeek V4 Pro",
+      "status": "running"
+    }
+  },
   "toolActions": [],
   "reply": null,
   "error": null,
