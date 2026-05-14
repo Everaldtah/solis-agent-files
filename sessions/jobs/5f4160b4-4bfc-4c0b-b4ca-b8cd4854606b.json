@@ -7,8 +7,14 @@
   "provider": "Nvidia",
   "model": "moonshotai/kimi-k2.6",
   "created": 1778721061581,
-  "updated": 1778721061581,
-  "rounds": [],
+  "updated": 1778721062483,
+  "rounds": [
+    {
+      "round": 1,
+      "thinking": "",
+      "toolCalls": []
+    }
+  ],
   "reply": null,
   "error": null,
   "durationMs": null
