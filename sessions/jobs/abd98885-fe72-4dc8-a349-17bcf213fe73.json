@@ -7,10 +7,48 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778723279844,
-  "updated": 1778723279853,
+  "updated": 1778723286156,
   "phase": "planning",
-  "plan": [],
-  "specialists": {},
+  "plan": [
+    {
+      "id": 1,
+      "task": "Design a visually appealing homepage layout for the dog sales website, including a header, navigation menu, and main content area",
+      "model": "Llama-3.3 (DS slot)"
+    },
+    {
+      "id": 2,
+      "task": "Create a HTML structure for the website's front-end, including sections for dog listings, pricing, and contact information",
+      "model": "GLM-5.1"
+    },
+    {
+      "id": 3,
+      "task": "Develop a CSS stylesheet to add styling and layout to the HTML structure, including fonts, colors, and responsive design elements",
+      "model": "Qwen 3.5-397B"
+    },
+    {
+      "id": 4,
+      "task": "Write sample HTML and CSS code for a dog sales webpage, including example dog listings and a simple navigation menu",
+      "model": "Llama-3.1 (MM slot)"
+    }
+  ],
+  "specialists": {
+    "1": {
+      "model": "Llama-3.3 (DS slot)",
+      "status": "running"
+    },
+    "2": {
+      "model": "GLM-5.1",
+      "status": "running"
+    },
+    "3": {
+      "model": "Qwen 3.5-397B",
+      "status": "running"
+    },
+    "4": {
+      "model": "Llama-3.1 (MM slot)",
+      "status": "running"
+    }
+  },
   "toolActions": [],
   "reply": null,
   "error": null,
