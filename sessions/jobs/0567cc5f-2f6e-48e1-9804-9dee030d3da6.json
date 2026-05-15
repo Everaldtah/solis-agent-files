@@ -1,14 +1,16 @@
 {
   "id": "0567cc5f-2f6e-48e1-9804-9dee030d3da6",
-  "status": "running",
+  "status": "cancelling",
   "message": "Run these shell commands one by one using shell_exec, one per turn: sleep 3, then sleep 3, then sleep 3, then sleep 3. Report what you saw at the end.",
   "sessionId": "cancel-smoke-test-2026-05-14",
   "provider": "Nvidia",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1778772161079,
-  "updated": 1778772161079,
+  "updated": 1778807734279,
   "rounds": [],
   "reply": null,
   "error": null,
-  "durationMs": null
+  "durationMs": null,
+  "cancelRequested": true,
+  "cancelRequestedAt": 1778807734279
 }
