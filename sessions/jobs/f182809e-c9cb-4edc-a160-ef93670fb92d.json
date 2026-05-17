@@ -7,7 +7,7 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1779050375214,
-  "updated": 1779050438203,
+  "updated": 1779050464547,
   "phase": "executing",
   "plan": [
     {
@@ -60,6 +60,13 @@
       "args": "current time in London, UK",
       "result": "",
       "at": 1779050438203
+    },
+    {
+      "kind": "linux",
+      "action": "web_search",
+      "args": "current time in London, UK",
+      "result": "{\"stderr\":\"exit status 1\",\"ok\":false}",
+      "at": 1779050464547
     }
   ],
   "reply": null,
@@ -75,7 +82,14 @@
       "code": "current time in London, UK",
       "path": null,
       "startedAt": 1779050438203,
-      "status": "running"
+      "status": "done",
+      "stdout": "",
+      "stderr": "exit status 1",
+      "reply": null,
+      "files": [],
+      "exit_code": 0,
+      "error": null,
+      "endedAt": 1779050464547
     }
   ]
 }
