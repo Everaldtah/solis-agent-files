@@ -1,13 +1,13 @@
 {
   "id": "0e97646d-4371-4cef-98d0-1cddf13e9083",
   "mode": "computer",
-  "status": "running",
+  "status": "cancelling",
   "message": "hey",
   "sessionId": "5510b22c-e22b-4e89-ae91-100d4b79ea54",
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1779050295824,
-  "updated": 1779050332808,
+  "updated": 1779050334552,
   "phase": "executing",
   "plan": [
     {
@@ -57,5 +57,7 @@
   "reply": null,
   "error": null,
   "durationMs": null,
-  "rounds": []
+  "rounds": [],
+  "cancelRequested": true,
+  "cancelRequestedAt": 1779050334552
 }
