@@ -74,6 +74,13 @@
       "args": "",
       "result": "",
       "at": 1779050478712
+    },
+    {
+      "kind": "linux",
+      "action": "web_fetch",
+      "args": "",
+      "result": "{\"stderr\":\"Sandbox is probably not running anymore\",\"ok\":false}",
+      "at": 1779050478794
     }
   ],
   "reply": null,
@@ -106,7 +113,14 @@
       "code": "https://www.worldtimebuddy.com/london",
       "path": null,
       "startedAt": 1779050478712,
-      "status": "running"
+      "status": "done",
+      "stdout": "",
+      "stderr": "Sandbox is probably not running anymore",
+      "reply": null,
+      "files": [],
+      "exit_code": 0,
+      "error": null,
+      "endedAt": 1779050478794
     }
   ]
 }
