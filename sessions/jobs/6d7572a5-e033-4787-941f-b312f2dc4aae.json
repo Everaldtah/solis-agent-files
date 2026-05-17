@@ -7,10 +7,48 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1779054046869,
-  "updated": 1779054046879,
+  "updated": 1779054071886,
   "phase": "planning",
-  "plan": [],
-  "specialists": {},
+  "plan": [
+    {
+      "id": 1,
+      "task": "Research top SaaS agency software review websites such as Capterra, Gartner, and Trustpilot to identify trending products",
+      "model": "Llama-3.3 (DS slot)"
+    },
+    {
+      "id": 2,
+      "task": "Analyze social media platforms like Twitter, LinkedIn, and Facebook to find popular SaaS agency software being discussed this month",
+      "model": "GLM-5.1"
+    },
+    {
+      "id": 3,
+      "task": "Look up recent industry reports and articles from reputable sources like Forbes, Entrepreneur, and Inc.com to find the latest SaaS agency software trends",
+      "model": "Qwen 3.5-397B"
+    },
+    {
+      "id": 4,
+      "task": "Explore online communities like Reddit, Quora, and Stack Overflow to gather information on the best SaaS agency software being used by professionals this month",
+      "model": "Llama-3.1 (MM slot)"
+    }
+  ],
+  "specialists": {
+    "1": {
+      "model": "Llama-3.3 (DS slot)",
+      "status": "running"
+    },
+    "2": {
+      "model": "GLM-5.1",
+      "status": "running"
+    },
+    "3": {
+      "model": "Qwen 3.5-397B",
+      "status": "running"
+    },
+    "4": {
+      "model": "Llama-3.1 (MM slot)",
+      "status": "running"
+    }
+  },
   "toolActions": [],
   "reply": null,
   "error": null,
