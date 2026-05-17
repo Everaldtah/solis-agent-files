@@ -7,10 +7,48 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1779050375214,
-  "updated": 1779050375216,
+  "updated": 1779050376805,
   "phase": "planning",
-  "plan": [],
-  "specialists": {},
+  "plan": [
+    {
+      "id": 1,
+      "task": "Determine the current time zone of London, UK",
+      "model": "Llama-3.3 (DS slot)"
+    },
+    {
+      "id": 2,
+      "task": "Find the current UTC offset for London",
+      "model": "GLM-5.1"
+    },
+    {
+      "id": 3,
+      "task": "Retrieve the current time in UTC",
+      "model": "Qwen 3.5-397B"
+    },
+    {
+      "id": 4,
+      "task": "Calculate the local time in London based on the UTC time and offset",
+      "model": "Llama-3.1 (MM slot)"
+    }
+  ],
+  "specialists": {
+    "1": {
+      "model": "Llama-3.3 (DS slot)",
+      "status": "running"
+    },
+    "2": {
+      "model": "GLM-5.1",
+      "status": "running"
+    },
+    "3": {
+      "model": "Qwen 3.5-397B",
+      "status": "running"
+    },
+    "4": {
+      "model": "Llama-3.1 (MM slot)",
+      "status": "running"
+    }
+  },
   "toolActions": [],
   "reply": null,
   "error": null,
