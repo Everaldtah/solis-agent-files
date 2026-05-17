@@ -1,0 +1,21 @@
+{
+  "id": "422a7866-aced-4c2f-85ca-1e7d1cc9198b",
+  "mode": "chat",
+  "status": "running",
+  "message": "do you have acess to helios",
+  "sessionId": "e032eee7-6ed9-43ed-a6a7-84fce2ccffef",
+  "provider": "Nvidia",
+  "model": "meta/llama-3.3-70b-instruct",
+  "created": 1779054522947,
+  "updated": 1779054523323,
+  "rounds": [
+    {
+      "round": 1,
+      "thinking": "",
+      "toolCalls": []
+    }
+  ],
+  "reply": null,
+  "error": null,
+  "durationMs": null
+}
