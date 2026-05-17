@@ -1,13 +1,13 @@
 {
   "id": "6d7572a5-e033-4787-941f-b312f2dc4aae",
   "mode": "computer",
-  "status": "running",
+  "status": "error",
   "message": "earch on the internet the best trending saas agentic software this month",
   "sessionId": "e032eee7-6ed9-43ed-a6a7-84fce2ccffef",
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1779054046869,
-  "updated": 1779054199826,
+  "updated": 1779054226359,
   "phase": "executing",
   "plan": [
     {
@@ -63,8 +63,8 @@
     }
   ],
   "reply": null,
-  "error": null,
-  "durationMs": null,
+  "error": "2: [unknown] terminated",
+  "durationMs": 179490,
   "rounds": [],
   "execVisuals": [
     {
