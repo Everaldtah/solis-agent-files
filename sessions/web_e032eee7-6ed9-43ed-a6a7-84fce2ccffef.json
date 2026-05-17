@@ -1,0 +1,90 @@
+[
+  {
+    "role": "user",
+    "content": "search on the internet the best trending saas agentic software this month"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "chatcmpl-tool-8052dc472a3a65b2",
+        "type": "function",
+        "function": {
+          "name": "web_search",
+          "arguments": "{\"query\": \"best trending SaaS agency software this month\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-8052dc472a3a65b2",
+    "name": "web_search",
+    "content": "{\"error\":\"2: [unknown] terminated\"}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "chatcmpl-tool-a3a103a9787b8c40",
+        "type": "function",
+        "function": {
+          "name": "web_search",
+          "arguments": "{\"query\": \"best trending SaaS agency software this month\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-a3a103a9787b8c40",
+    "name": "web_search",
+    "content": "{\"error\":\"Sandbox is probably not running anymore\"}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "chatcmpl-tool-8d4882bad1d866b7",
+        "type": "function",
+        "function": {
+          "name": "web_search",
+          "arguments": "{\"query\": \"best trending SaaS agency software this month\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-8d4882bad1d866b7",
+    "name": "web_search",
+    "content": "{\"error\":\"Sandbox is probably not running anymore\"}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "chatcmpl-tool-b2c93ae8c3c6ddb0",
+        "type": "function",
+        "function": {
+          "name": "web_search",
+          "arguments": "{\"query\": \"best trending SaaS agency software this month\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-b2c93ae8c3c6ddb0",
+    "name": "web_search",
+    "content": "{\"error\":\"Sandbox is probably not running anymore\"}"
+  },
+  {
+    "role": "assistant",
+    "content": "The search results for the best trending SaaS agency software this month were not provided due to an error. Is there anything else I can help you with?"
+  }
+]
