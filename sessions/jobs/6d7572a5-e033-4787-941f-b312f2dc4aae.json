@@ -7,7 +7,7 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1779054046869,
-  "updated": 1779054193888,
+  "updated": 1779054193892,
   "phase": "running",
   "plan": [
     {
@@ -49,7 +49,8 @@
     },
     "4": {
       "model": "Llama-3.1 (MM slot)",
-      "status": "running"
+      "status": "error",
+      "result": "Error: LLM timeout (60000ms): meta/llama-3.1-70b-instruct"
     }
   },
   "toolActions": [],
