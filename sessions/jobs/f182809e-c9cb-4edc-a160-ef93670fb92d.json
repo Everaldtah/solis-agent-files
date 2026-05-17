@@ -65,5 +65,17 @@
   "reply": null,
   "error": null,
   "durationMs": null,
-  "rounds": []
+  "rounds": [],
+  "execVisuals": [
+    {
+      "execId": "e1cf2dde-268b-41e1-9f0a-97e86e18c90c",
+      "tool": "web_search",
+      "kind": "linux",
+      "backend": "openclaude",
+      "code": "current time in London, UK",
+      "path": null,
+      "startedAt": 1779050438203,
+      "status": "running"
+    }
+  ]
 }
