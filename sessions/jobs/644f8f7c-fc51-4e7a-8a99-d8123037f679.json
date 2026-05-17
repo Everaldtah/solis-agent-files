@@ -7,8 +7,14 @@
   "provider": "Nvidia",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1779054587105,
-  "updated": 1779054587105,
-  "rounds": [],
+  "updated": 1779054588085,
+  "rounds": [
+    {
+      "round": 1,
+      "thinking": "",
+      "toolCalls": []
+    }
+  ],
   "reply": null,
   "error": null,
   "durationMs": null
