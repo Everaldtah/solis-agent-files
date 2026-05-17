@@ -1,0 +1,19 @@
+{
+  "id": "f182809e-c9cb-4edc-a160-ef93670fb92d",
+  "mode": "computer",
+  "status": "running",
+  "message": "whats the time in the uk london now",
+  "sessionId": "5510b22c-e22b-4e89-ae91-100d4b79ea54",
+  "provider": "Computer Mode",
+  "model": "meta/llama-3.3-70b-instruct",
+  "created": 1779050375214,
+  "updated": 1779050375214,
+  "phase": "initializing",
+  "plan": [],
+  "specialists": {},
+  "toolActions": [],
+  "reply": null,
+  "error": null,
+  "durationMs": null,
+  "rounds": []
+}
