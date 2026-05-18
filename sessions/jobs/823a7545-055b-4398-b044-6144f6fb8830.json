@@ -65,5 +65,17 @@
   "reply": null,
   "error": null,
   "durationMs": null,
-  "rounds": []
+  "rounds": [],
+  "execVisuals": [
+    {
+      "execId": "49b05dcf-8975-4026-8eff-a0cd3c329b05",
+      "tool": "code_task",
+      "kind": "linux",
+      "backend": "openclaude",
+      "code": "Build a simple Tinder clone that is native on web using clause code",
+      "path": null,
+      "startedAt": 1779116802428,
+      "status": "running"
+    }
+  ]
 }
