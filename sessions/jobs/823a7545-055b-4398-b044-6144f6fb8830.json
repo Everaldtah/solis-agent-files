@@ -1,13 +1,13 @@
 {
   "id": "823a7545-055b-4398-b044-6144f6fb8830",
   "mode": "computer",
-  "status": "running",
+  "status": "error",
   "message": "Use clause code to build a simple tinder clone that is native on web and send me",
   "sessionId": "22acd95b-323e-44d3-93b8-7cf4f2795b1e",
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1779116658301,
-  "updated": 1779116802428,
+  "updated": 1779116830979,
   "phase": "executing",
   "plan": [
     {
@@ -63,8 +63,8 @@
     }
   ],
   "reply": null,
-  "error": null,
-  "durationMs": null,
+  "error": "2: [unknown] terminated",
+  "durationMs": 172678,
   "rounds": [],
   "execVisuals": [
     {
