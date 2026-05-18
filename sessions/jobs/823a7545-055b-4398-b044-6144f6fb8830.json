@@ -7,7 +7,7 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1779116658301,
-  "updated": 1779116798724,
+  "updated": 1779116798726,
   "phase": "running",
   "plan": [
     {
@@ -39,7 +39,8 @@
     },
     "2": {
       "model": "GLM-5.1",
-      "status": "running"
+      "status": "error",
+      "result": "Error: LLM timeout (60000ms): z-ai/glm-5.1"
     },
     "3": {
       "model": "Qwen 3.5-397B",
@@ -48,7 +49,8 @@
     },
     "4": {
       "model": "Llama-3.1 (MM slot)",
-      "status": "running"
+      "status": "error",
+      "result": "Error: LLM timeout (60000ms): meta/llama-3.1-70b-instruct"
     }
   },
   "toolActions": [],
