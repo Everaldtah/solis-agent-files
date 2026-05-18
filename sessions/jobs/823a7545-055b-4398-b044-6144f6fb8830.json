@@ -7,10 +7,48 @@
   "provider": "Computer Mode",
   "model": "meta/llama-3.3-70b-instruct",
   "created": 1779116658301,
-  "updated": 1779116658311,
+  "updated": 1779116676721,
   "phase": "planning",
-  "plan": [],
-  "specialists": {},
+  "plan": [
+    {
+      "id": 1,
+      "task": "Design user interface and user experience for the Tinder clone, including profile creation, swipe functionality, and match display",
+      "model": "Llama-3.3 (DS slot)"
+    },
+    {
+      "id": 2,
+      "task": "Develop backend API using Node.js and Express to handle user data, profile storage, and match algorithm implementation",
+      "model": "GLM-5.1"
+    },
+    {
+      "id": 3,
+      "task": "Implement real-time database using MongoDB to store user information, preferences, and match history, ensuring data consistency and scalability",
+      "model": "Qwen 3.5-397B"
+    },
+    {
+      "id": 4,
+      "task": "Create frontend application using React and Redux, integrating API and database to provide seamless user interaction, swipe functionality, and match notifications",
+      "model": "Llama-3.1 (MM slot)"
+    }
+  ],
+  "specialists": {
+    "1": {
+      "model": "Llama-3.3 (DS slot)",
+      "status": "running"
+    },
+    "2": {
+      "model": "GLM-5.1",
+      "status": "running"
+    },
+    "3": {
+      "model": "Qwen 3.5-397B",
+      "status": "running"
+    },
+    "4": {
+      "model": "Llama-3.1 (MM slot)",
+      "status": "running"
+    }
+  },
   "toolActions": [],
   "reply": null,
   "error": null,
